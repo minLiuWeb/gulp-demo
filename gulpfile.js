@@ -51,9 +51,6 @@ const serve = () => {
     watch('src/assets/styles/*.scss',taskCss)
     watch('src/assets/scripts/*.js',taskJS)
     watch('src/*.html',taskHtml)
-    // watch('src/assets/images/**',taskImage)
-    // watch('src/assets/fonts/**',taskFont)
-    // watch('public/**',taskExtra)
     watch([
         'src/assets/images/**',
         'src/assets/fonts/**',

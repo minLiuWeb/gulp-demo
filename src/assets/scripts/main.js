@@ -5,6 +5,7 @@ $(($) => {
 
   $('#scroll_top').on('click', () => {
     $body.animate({ scrollTop: 0 }, 600)
+    console.log(2)
     return false
   })
 })
